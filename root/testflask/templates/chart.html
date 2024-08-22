@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trend Chart</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>{{ chart_title }}</h2>
+        <div>{{ plot | safe }}</div>
+        <p><a href="/top_users_pie_chart">View Top Users</a></p>
+    </div>
+</body>
+</html>
