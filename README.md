@@ -72,3 +72,16 @@ The web interface is built using Flask and Bootstrap, providing a simple and res
 2. **Run the Producer**:
    ```bash
    python produce_tweets.py
+3. **Run the Consumer**:
+   ```bash
+   sbt run
+4. **Run the Flask app**:
+      ```bash
+      python app.py
+  
+
+
+
+
+
+   
