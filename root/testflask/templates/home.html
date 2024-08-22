@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trend Chart</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Filter Tweets by User</h2>
+        <form method="POST" action="/trend_chart">
+            <div class="form-group">
+                <label for="user">Enter Username:</label>
+                <input type="text" class="form-control" id="user" name="user" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Show Trend Chart</button>
+        </form>
+    </div>
+</body>
+</html>
